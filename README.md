@@ -14,7 +14,7 @@ Challenge 03: Creating a shopping cart hook
   <img alt="License" src="https://img.shields.io/github/license/LeonneBrito/challenge05-ignite-bootcamp-reactjs?color=%235E69D7" />
   <img alt="Issues" src="https://img.shields.io/github/issues/LeonneBrito/challenge05-ignite-bootcamp-reactjs?color=%235965E0">
   <a href="mailto:britoleonne@gmail.com">
-   <img alt="Email" src="https://img.shields.io/badge/-britoleonn%40gmail.com-%23525DCB" />
+   <img alt="Email" src="https://img.shields.io/badge/-britoleonne%40gmail.com-%23525DCB" />
   </a>
 </p>
 
