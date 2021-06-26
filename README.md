@@ -46,12 +46,9 @@ So, before going directly to the challenge code, we'll briefly explain how each 
 
 ### React Query
 
-Na aplicação do desafio, você vai lidar com Infinite Queries, Mutations e Invalidações. Ao longo da seção **[O que devo editar na aplicação](https://www.notion.so/Desafio-02-Upload-de-imagens-4cf1c3b1c1ad4a66961b6e48558cc3b8)** iremos mencionar quando cada uma dessas funcionalidades será utilizada, mas já vamos entender um pouquinho o papel de cada uma delas na nossa aplicação:
-
-- **Infinite Queries**: Listagem que adiciona mais dados ao clicar em um botão de carregamento ou "infinite scroll". Ela será utilizada nessa aplicação para realizar o carregamento das imagens cadastradas no nosso banco. O carregamento foi implementado com um clique em um botão, não o "infinite scroll" (já fica aí a sugestão de um extra para o desafio).
-- **Mutations**: Diferente das queries do React Query que são utilizadas normalmente para a busca de dados, as mutations são responsáveis pela criação/edição/remoção de dados. Ela será utilizada nessa aplicação para o cadastro de uma nova imagem no banco.
-- **Invalidações**: Utilizada para marcar manualmente uma query como `stale` e forçar a atualização dos dados. Ela será utilizada nessa aplicação para marcar a query de listagem de imagens como `stale` quando a mutation de cadastrar uma nova imagem ocorrer com sucesso.
-
+- **Infinite Queries**: Listing that adds more data when clicking a load button or "infinite scroll". It will be used in this application to upload images registered in our database. Loading was implemented with a click of a button, not the "infinite scroll" (there's already the suggestion of an extra for the challenge).
+- **Mutations**: Unlike React Query queries that are normally used to search for data, mutations are responsible for creating/editing/removing data. It will be used in this application to register a new image in the bank.
+- **Invalidations**: Used to manually mark a query as `stale` and force data to be updated. It will be used in this application to mark the image listing query as `stale` when the mutation of registering a new image is successful.
 
 ### React Hook Form
 
